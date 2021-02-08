@@ -154,7 +154,7 @@ const Receipt = (props: RouteComponentProps) => {
                 <div className={classes.Name}>
                     <input
                         className={classes.Input}
-                        placeholder="Course List Name"
+                        placeholder="Enter Receipt Name to Save"
                         value={title}
                         onChange={inputChangedHandler}
                     />
@@ -171,7 +171,7 @@ const Receipt = (props: RouteComponentProps) => {
                     onClick={saveScheduleHandler}
                     disabled={cart.length <= 0 || cart.length > 7 || !auth}
                 >
-                    Save Receipt
+                    {auth ? "Save to Receipt" : "Login to save receipts"}
                 </Button>
                 <Button
                     color="blue"
