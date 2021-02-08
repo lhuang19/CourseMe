@@ -1,0 +1,21 @@
+.Content {
+    margin-top: 92px;
+    margin-bottom: 80px;
+    width: 100vw;
+    height: calc(100vh - 92px - 50px);
+}
+
+.Footer {
+    position: fixed;
+    width: 100vw;
+    left: 0px;
+    height: 50px;
+    top: calc(100vh - 50px);
+    background-color: #011f5b;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    padding-left: 20px;
+}

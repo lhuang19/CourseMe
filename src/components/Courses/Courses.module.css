@@ -1,0 +1,100 @@
+.Courses {
+    height: calc(100vh - 72px - 80px);
+    width: 100vw;
+    border-top: 30px solid white;
+    box-sizing: border-box;
+    overflow: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.FilterDiv {
+    position: absolute;
+    top: 85px;
+    width: 80%;
+    left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.CartButtonAndDisplay {
+    margin-right: 40px;
+}
+
+.CoursesDisplay {
+    width: calc(100% - 30px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.InputAndSelect {
+    margin-left: 10px;
+    align-items: center;
+    height: 30px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgb(187, 187, 187);
+}
+
+.Select {
+    width: 200px;
+    border: 2px solid #0066ff;
+    border-left-width: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    outline: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Input {
+    width: 180px;
+    border: 2px solid #0066ff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right-width: 1px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-indent: 10px;
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.VisualizationButton {
+    position: absolute;
+    z-index: 30;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 850px) {
+    .FilterDiv {
+        top: 60px;
+        display: block;
+        z-index: 80;
+        background-color: white;
+        border-bottom: 10px solid white;
+    }
+    .CartButtonAndDisplay {
+        margin: auto;
+    }
+    .InputAndSelect {
+        margin: auto;
+    }
+}

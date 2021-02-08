@@ -1,0 +1,130 @@
+.Course {
+    position: relative;
+    border: 0px solid #bdbdbd;
+    border-radius: 10px;
+    height: 160px;
+    margin: 10px;
+    text-align: left;
+    padding-left: 12px;
+    transition: all 0.2s ease-in-out;
+    width: calc((100% / 3) - 20px);
+    min-width: 200px;
+    box-shadow: 0px 2px 6px #a8a8a8;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 15px;
+    overflow: hidden;
+}
+
+@media (max-width: 800px) {
+    .Course {
+        width: calc((100% / 2) - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .Course {
+        width: calc((100% / 1) - 20px);
+    }
+}
+
+.Course:hover {
+    box-shadow: 0px 2px 8px #5f5f5f;
+    transform: scale(1.05);
+    transition-delay: 0.1s;
+    z-index: 30;
+}
+
+.Course:hover .ButtonPanel {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ButtonPanel {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    bottom: 10px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(100px);
+}
+
+.DeptAndNum {
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.Title {
+    margin: 3px 0px;
+    font-size: 14px;;
+}
+
+.Prerequisites {
+    margin-top: 0px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Prereq {
+    box-shadow: 0 0 1px black;
+    background-color: rgb(240, 240, 240);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+}
+
+.SelectedBanner {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    right: -40px;
+    width: 500px;
+    padding: 1px;
+    background-color: #66cc66;
+    box-shadow: 0 0 2px #346934;
+    color: white;
+    font-size: 6px;
+    text-align: center;
+    transition: all 0.6s ease-out;
+    transform: translate(50%, -50%) rotate(45deg);
+    transform-origin: center;
+}
+
+.SelectedText {
+    vertical-align: middle;
+    font-family: 'Comfortaa', cursive;
+}
+
+@media (min-width: 640px) {
+    .Course {
+        transform: scale(1.1);
+        width: 200px;
+        margin: 15px;
+    }
+    .Course:hover {
+        transform: scale(1.21);
+    }
+    .B {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+.B {
+    height: 24px;
+    font-size: 10px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

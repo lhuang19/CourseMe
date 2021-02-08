@@ -1,0 +1,50 @@
+.Checkout {
+    width: 80%;
+    height: calc(100vh - 72px - 80px - 10px);
+    margin: auto;
+    padding: 10px;
+}
+
+.Buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.Title {
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.DisplayList {
+    box-shadow: 0px 0px 5px rgb(156, 156, 156) inset;
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: none;
+    max-height: 460px;
+    margin-bottom: 0px;
+}
+
+.TopBanner {
+    display: flex;
+    position: relative;
+}
+
+.CartIcon {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.DragPrompt {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    font-weight: bold;
+
+}

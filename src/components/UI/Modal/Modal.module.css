@@ -1,0 +1,19 @@
+.Modal {
+    width: 80%;
+    box-shadow: 0 0 3px rgb(226, 226, 226) inset;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 500;
+    background-color: white;
+    transition: opacity 0.5s ease-out, transform 2s ease-out;
+    border-radius: 20px;
+    max-height: 75%;
+    overflow: auto;
+}
+
+@media (max-width: 300px) {
+    .Modal {
+        width: 240px;
+    }
+}

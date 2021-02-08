@@ -1,0 +1,26 @@
+.Button {
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+    background-color: red;
+    box-shadow: 0 0 2px black;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: inherit;
+    font-size: 12px;
+}
+
+.Button:hover:enabled {
+    filter: brightness(115%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Button:disabled {
+    filter: brightness(45%);
+    cursor: auto;
+}

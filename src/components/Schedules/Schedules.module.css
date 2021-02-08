@@ -1,0 +1,8 @@
+.Schedules {
+    width: 80%;
+    padding: 5px;
+    box-shadow: 0 0 3px black inset;
+    margin: auto;
+    overflow: auto;
+    max-height: calc(100vh - 92px - 50px - 20px);
+}

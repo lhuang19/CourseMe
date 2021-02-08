@@ -1,0 +1,75 @@
+.Container {
+    position: relative;
+    left: 0;
+    width: 200px;
+    margin: auto;
+    transform: translateX(0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.CartAndNumber {
+    position: absolute;
+    left: 0px;
+}
+
+.CartIcon {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.Number {
+    position: absolute;
+    background-color: red;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    left: 0px;
+    top: -25px;
+}
+
+.CartText {
+    position: absolute;
+    top: -23px;
+    left: 20px;
+}
+
+.CourseIcons {
+    position: absolute;
+    right: 23px;
+    background-color: white;
+    box-shadow: 0 0 3px grey;
+    display: flex;
+    height: 28px;
+    border-radius: 5px;
+    max-width: calc(7 * 42px + 12px + 25px);
+    margin: 2px;
+    overflow: auto;
+}
+
+.CourseIcons::-webkit-scrollbar {
+    display: none;
+}
+
+.CourseIcons {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.CourseIconText {
+    font-size: 10px;
+    margin: 5px;
+    padding: 2px;
+    background-color: white;
+    color: #0066ff;
+    box-shadow: 0 0 2px #0066ff;
+    border-radius: 3px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.Schedule {
+    padding: 10px;
+    box-shadow: 0 0 3px black;
+    box-sizing: border-box;
+    margin: 15px;
+    padding-left: 20px;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.DeptAndNumber {
+    font-family: 'Inconsolata', monospace;
+}

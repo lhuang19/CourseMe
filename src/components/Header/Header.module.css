@@ -1,0 +1,53 @@
+.Header {
+    position: fixed;
+    height: 56px;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #011f5b;
+    font-family: 'Comfortaa', cursive;
+    min-width: 430px;
+}
+
+.Title {
+    display: inline-block;
+    color: white;
+}
+.Button {
+    background-color: white;
+    color: #990000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    text-decoration: none;
+    border: none;
+    align-self: center;
+    margin: 50% 5px;
+}
+
+.Active {
+    background-color: #990000;
+    color: white;
+    pointer-events: none;
+}
+
+.Name {
+    color: white;
+    size: 20px;
+}
+
+@media (max-width: 680px) {
+    .Title {
+        font-size: 20px;
+    }
+    .Button {
+        font-size: 10px;
+        padding: 10px 2px;
+        word-wrap: auto;
+    }
+}

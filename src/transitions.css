@@ -1,0 +1,40 @@
+.transitions-enter {
+    opacity: 0.01;
+}
+
+.transitions-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.transitions-exit {
+    opacity: 0.3;
+}
+
+.transitions-exit-active {
+    opacity: 0.01;
+    transition: opacity 80ms ease-in;
+}
+
+/*
+
+.transitions-enter {
+    opacity: 0.01;
+}
+
+.transitions-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.transitions-exit {
+    opacity: 0.3;
+}
+
+.transitions-exit-active {
+    opacity: 0.01;
+    transition: opacity 80ms ease-in;
+}
+
+
+*/

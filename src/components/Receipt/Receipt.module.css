@@ -1,0 +1,68 @@
+.Receipt {
+    width: 60%;
+    height: calc(100vh - 72px - 80px - 10px);
+    margin: auto;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.DeptAndNumber {
+    font-family: 'Inconsolata', monospace;
+}
+
+.Display {
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.Buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Input {
+    height: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 60%;
+    min-width: 300px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: 10px;
+    color: black;
+}
+
+.Hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    min-width: 300px;
+    width: 60%;
+    margin-left: 0px;
+}
+
+.Name {
+    background-color: rgb(255, 255, 255);
+}
+
+.Course {
+    border: 1px solid rgb(122, 122, 122);
+    margin: 8px;
+    padding: 8px;
+    padding-left: 12px;
+    background-color: white;
+}
+
+.TopBanner {
+    display: flex;
+    position: relative;
+}
+
+.CartIcon {
+    margin: 0px;
+    margin-top: 25px;
+}

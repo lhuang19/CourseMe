@@ -1,0 +1,14 @@
+.Visualization {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+

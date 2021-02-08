@@ -1,0 +1,62 @@
+.Container {
+    overflow: hidden;
+    position: relative;
+}
+.Description {
+    text-align: left;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+.Title {
+    margin: 0px;
+}
+
+.DeptAndNum {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.Buttons {
+    position: absolute;
+    bottom: 60px;
+    width: calc(100% - 80px);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.DescriptionElement,
+.CUAndURL {
+    margin: 3px;
+}
+
+.URL {
+    text-decoration: none;
+}
+
+.Prerequisites {
+    margin-top: 0px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Prereq {
+    box-shadow: 0 0 1px black;
+    background-color: rgb(240, 240, 240);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.BottomBanner {
+    height: 80px;
+    width: 100%;
+}
