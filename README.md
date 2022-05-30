@@ -1,5 +1,3 @@
-# Penn Labs Frontend Challenge Submission for Spring 2021
-
 See it live on [http://lj-studios.com/](http://lj-studios.com/)
 
 ---
